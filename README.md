@@ -46,12 +46,6 @@ HTML
 
 CSS
 
-📁 Project Files
-food-project/
- ├── login.html
- ├── menu.html
- └── style.css
-
 📸 Screenshots
 
 Screenshots of all developed pages are added in the repository for reference.
