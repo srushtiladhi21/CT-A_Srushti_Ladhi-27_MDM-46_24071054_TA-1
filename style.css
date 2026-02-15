@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* -------- LOGIN PAGE -------- */
+
+.login-bg{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#ff9966,#ff5e62);
+}
+
+.login-container{
+    background:white;
+    padding:40px;
+    width:330px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+.login-container h2{
+    color:#ff5e62;
+    margin-bottom:5px;
+}
+
+.login-container p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.login-container input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:14px;
+}
+
+.login-container button{
+    width:100%;
+    padding:12px;
+    background:#ff5e62;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.login-footer{
+    display:block;
+    margin-top:15px;
+    font-size:13px;
+    color:#777;
+}
+
+/* -------- MENU PAGE -------- */
+
+.menu-heading{
+    text-align:center;
+    margin-top:30px;
+    font-size:32px;
+    color:#ff6f61;
+}
+
+.menu-sub{
+    text-align:center;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.menu-wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap:25px;
+    padding:25px;
+}
+
+.menu-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 16px rgba(0,0,0,0.12);
+    transition:transform 0.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-6px);
+}
+
+.menu-card h3{
+    color:#ff6f61;
+}
+
+.menu-card p{
+    color:#666;
+}
+
+.menu-card span{
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+    margin:12px 0;
+}
+
+.menu-card button{
+    background:#2ecc71;
+    border:none;
+    padding:8px 18px;
+    color:white;
+    border-radius:20px;
+    font-size:14px;
+}
